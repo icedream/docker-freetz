@@ -52,4 +52,7 @@ RUN apt-get update \
 
 # Install freetz source tree
 WORKDIR /freetz
+RUN useradd -M -d /freetz -U freetz \
+  && chown freetz:freetz .
+USER freetz
 RUN svn checkout -r "${FREETZ_REVISION}" "${FREETZ_SVN_URL}" .
