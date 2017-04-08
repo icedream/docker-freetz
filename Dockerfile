@@ -19,6 +19,7 @@ RUN apt-get update \
     gettext \
     git \
     graphicsmagick \
+    imagemagick \
     intltool \
     lib32ncurses5-dev \
     lib32stdc++6 \
@@ -43,6 +44,7 @@ RUN apt-get update \
     texinfo \
     tofrodos \
     unzip \
+    wget \
     zlib1g-dev \
   && apt-get clean \
   && rm -rf \
