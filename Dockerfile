@@ -1,7 +1,7 @@
 FROM ubuntu:16.04
 
 ARG FREETZ_SVN_URL=http://svn.freetz.org/trunk/
-ARG FREETZ_REVISION=14233
+ARG FREETZ_REVISION=12207
 
 RUN apt-get update \
   && apt-get install -y \
