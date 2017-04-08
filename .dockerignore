@@ -1,0 +1,8 @@
+.dockerignore
+Dockerfile
+
+*.md
+
+.git*
+.cvs*
+.hg*
